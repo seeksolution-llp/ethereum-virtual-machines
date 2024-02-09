@@ -1,5 +1,13 @@
 {
   "name": "ethereum-virtual-machines",
+  "author": {
+    "name": "Seek Solution LLP",
+    "url": "https://www.seeksolution.in"
+  },
+  "repository": {
+    "url": "https://github.com/seeksolution-llp/ethereum-virtual-machines.git",
+    "type": "blockchain"
+  },
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +17,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.3.0",
+    "@web3modal/wagmi1": "^4.0.0-544a28f1",
+    "antd": "^5.14.0",
+    "ethers": "^6.10.0",
+    "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.0"
+    "wagmi": "^1.4.13"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.1.0"
+    "eslint-config-next": "14.1.0",
+    "typescript": "^5"
   }
 }
