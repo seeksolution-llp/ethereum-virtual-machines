@@ -8,6 +8,7 @@
     "url": "https://github.com/seeksolution-llp/ethereum-virtual-machines.git",
     "type": "blockchain"
   },
+  "description": "Check you all types blockchain functions",
   "version": "0.1.0",
   "private": true,
   "scripts": {
